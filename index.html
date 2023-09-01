@@ -12,7 +12,8 @@
     </div>
 
     <script>
-        function SaludoOnclick(){
+        function SaludoOnclick(evento){
+            evento.stopPropagation();
             alert("Hola!");
         }
     </script>
